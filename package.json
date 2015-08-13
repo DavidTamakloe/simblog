@@ -1,0 +1,30 @@
+{
+  "name": "simblog",
+  "version": "1.0.0",
+  "description": "Sample blog app developed with TDD",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidTamakloe/simblog.git"
+  },
+  "author": "David Tamakloe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidTamakloe/simblog/issues"
+  },
+  "homepage": "https://github.com/DavidTamakloe/simblog#readme",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "grunt": "^0.4.5",
+    "mongoose": "^3.8.34",
+    "mongoose-simpledb": "^4.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
